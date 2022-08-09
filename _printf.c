@@ -26,6 +26,7 @@ int _printf(const char *format, ...)
 		return (-1);
 	for (p = format; *p; p++)
 	{
+		
 		if (*p == '%')
 		{
 			p++;
